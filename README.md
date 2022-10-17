@@ -7,4 +7,4 @@ A tool set for windows
 
 1.2. If the copy text is word or collocation, it will be added to the word book automatically which can be output as XML for other translation apps such as YouDao dictionary.
 
-![image](https://github.com/huntor1994/MeTools/IMG/1.png)
+![image](https://github.com/huntor1994/MeTools/blob/master/IMG/1.png)
