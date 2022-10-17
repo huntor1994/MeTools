@@ -1,0 +1,10 @@
+#ifndef METOOLSLIB_GLOBAL_H
+#define METOOLSLIB_GLOBAL_H
+#include <QtCore/qglobal.h>
+
+#if defined(METOOLSLIB_LIBRARY)
+#  define METOOLSLIBSHARED_EXPORT  Q_DECL_EXPORT
+#else
+#  define METOOLSLIBSHARED_EXPORT  Q_DECL_IMPORT
+#endif
+#endif // METOOLSLIB_GLOBAL_H

@@ -8,3 +8,6 @@ RESOURCES += \
     assets.qrc \
     components.qrc \
     views.qrc
+
+QT += quick qml
+CONFIG += c++11
