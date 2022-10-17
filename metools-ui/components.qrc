@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/components">
-
+        <file alias="SwitchButton.qml">components/SwitchButton.qml</file>
+        <file alias="qmldir">components/qmldir</file>
     </qresource>
+
 </RCC>

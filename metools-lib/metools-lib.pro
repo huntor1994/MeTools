@@ -2,11 +2,15 @@ include(../qmake-target-platform.pri)
 include(../qmake-destination-path.pri)
 
 HEADERS += \
+    source/controllers/command-controller.h \
     source/controllers/master-controller.h \
+    source/framework/command.h \
     source/metools-lib_global.h
 
 SOURCES += \
-    source/controllers/master-controller.cpp
+    source/controllers/command-controller.cpp \
+    source/controllers/master-controller.cpp \
+    source/framework/command.cpp
 
 QT -= gui
 QT+=sql quick
